@@ -7,9 +7,10 @@ gem 'bson_ext', '1.1.2'
 gem 'haml'
 gem 'devise'
 
-gem 'carrierwave', :git => 'http://github.com/jnicklas/carrierwave.git'
+gem 'carrierwave'#, :git => 'http://github.com/jnicklas/carrierwave.git'
 gem 'mini_magick'
-gem 'aws'
+#gem 'aws'
+gem 'fog'
 
 gem 'ruby-debug', :group => [:development, :test]
 
